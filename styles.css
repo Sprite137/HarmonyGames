@@ -88,27 +88,6 @@ body {
 .wrap { max-width: 1080px; margin: 0 auto; padding: 28px 20px 64px; }
 
 /* ===== 筛选区 ===== */
-.filterbar {
-  background: var(--card);
-  border: 1px solid var(--line); border-radius: var(--radius);
-  padding: 18px 22px; box-shadow: var(--shadow);
-}
-.filter-label { font-size: 13px; color: var(--muted); margin-bottom: 12px; font-weight: 600; display: flex; align-items: center; gap: 8px; letter-spacing: .3px; }
-.filter-label .dot { width: 7px; height: 7px; border-radius: 50%; background: linear-gradient(135deg, var(--brand), var(--brand-2)); box-shadow: 0 0 8px color-mix(in srgb, var(--brand) 60%, transparent); }
-
-.chips { display: flex; flex-wrap: wrap; gap: 10px; }
-.chip {
-  padding: 9px 18px; border-radius: 22px; font-size: 14px; font-weight: 600; cursor: pointer;
-  background: var(--bg-soft); color: var(--muted); border: 1px solid transparent;
-  transition: all .18s; user-select: none;
-}
-.chip:hover { color: var(--text); transform: translateY(-1px); background: #e7eaf3; }
-.chip.active {
-  color: #fff; border-color: transparent;
-  background: linear-gradient(135deg, var(--brand), var(--brand-2));
-  box-shadow: 0 6px 16px color-mix(in srgb, var(--brand) 40%, transparent);
-}
-
 /* ===== 结果条 ===== */
 .resultbar { display: flex; justify-content: space-between; align-items: center; margin: 26px 4px 18px; }
 .resultbar .count { font-size: 15px; color: var(--muted); font-weight: 500; }
