@@ -1,0 +1,26 @@
+/node_modules
+
+# 源码与明文数据不入库（已混淆/加密后的产物才部署）
+app.js
+encrypt.js
+games.json
+fill_meta.js
+fill_meta.log
+fill_meta_failed.txt
+retry_meta.js
+patch_qq.js
+check_meta.js
+check_dev.js
+normalize_dev.js
+normalize_dev2.js
+merge_topfree.js
+fetch_topfree.js
+favicon.js
+favicon_fetch.js
+appstore_icons.js
+build.js
+top_free_games.xlsx
+
+# 本地图标可入库；若不想暴露可取消下一行注释
+# img/icon/
+/games.json
