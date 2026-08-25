@@ -25,3 +25,6 @@ top_free_games.xlsx
 # img/icon/
 /games.json
 /readme.md
+/package.json
+/package-lock.json
+/yarn.lock
