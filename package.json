@@ -1,0 +1,15 @@
+{
+  "name": "harmony-game",
+  "private": true,
+  "description": "鸿蒙游戏适配列表（静态站点，部署于 GitHub Pages）",
+  "scripts": {
+    "build": "node build.js",
+    "icons": "node appstore_icons.js",
+    "icons:force": "node appstore_icons.js --force",
+    "icons:opt": "node appstore_icons.js --optimize"
+  },
+  "dependencies": {
+    "javascript-obfuscator": "^5.6.0",
+    "sharp": "^0.35.4"
+  }
+}

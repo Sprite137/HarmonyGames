@@ -25,6 +25,10 @@ top_free_games.xlsx
 # img/icon/
 /games.json
 /readme.md
-/package.json
-/package-lock.json
 /yarn.lock
+
+# 依赖清单需要入库，换机器后 npm install 即可还原 sharp / javascript-obfuscator
+# （package.json / package-lock.json 不再忽略）
+
+# 图标处理临时目录
+img/.tmp/
